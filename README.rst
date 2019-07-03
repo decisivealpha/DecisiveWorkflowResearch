@@ -30,9 +30,15 @@ Alternatively, you may manually strip your notebooks with nbstripout before comm
 
 1. After you have installed the pip requirements, move to step 2
    - If you have not, run `pip install nbstripout`
+
 2. Open `.git/config` in your editor, and add this
         [filter "nbstripout"]
             clean = "/path/to/nbconvert/nbstripout"
+
+   - For example:
+        [filter "nbstripout"]
+            clean = "/c/Users/YOURNAME/AppData/Local/Continuum/anaconda3/envs/DecisiveWorkflowResearch/Scripts/nbstripout.exe"
+
 3. (Optional) Manually run `nbstripout <notebook>` before commiting
 
 
