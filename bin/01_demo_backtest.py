@@ -19,11 +19,11 @@ class SmaCross(Strategy):
 
 
 if __name__ == '__main__':
-    # avoid concurrent.futures.process.BrokenProcessPool by wrapping in this if __name__ section on Windows
+    # Windows: avoid concurrent.futures.process.BrokenProcessPool by wrapping in this if __name__ section
     bt = Backtest(GOOG, SmaCross, cash=10000, commission=.002)
 
     output = bt.run()
     print(output)
-    bt.optimize(n1=range(10, 30, 10),
-                n2=range(30, 60, 10),)
+    bt.optimize(n1=range(5, 20, 5),
+                n2=range(10, 100, 10),)
     bt.plot()
