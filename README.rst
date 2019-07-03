@@ -55,3 +55,8 @@ Data
 The standard data timeframe will be 5-minute CSV files, processed into binary parquet.
 
 If you'd like access to more instruments, drop me a note in the Server and I'll process back-adjusted futures contracts into parquet format (filesize is easier to handle)
+
+Backtesting
+-----------
+
+pip install "backtrader[plotting]"
