@@ -2,3 +2,4 @@
 *~
 data/raw/5min
 *.html
+__pycache__
