@@ -24,7 +24,7 @@ Install
 
   - You will see your browser open to this directory
 
-5. Access this notebook in the 'notebooks' directory: 20190703-DA-WORKFLOW-01.02-basic_plot.ipynb
+5. Access this notebook in the 'notebooks' directory: 20190703-DA-WORKFLOW-01.01-basic_plot.ipynb
 
   - This will download data and plotting code
 
