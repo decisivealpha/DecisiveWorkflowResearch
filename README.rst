@@ -1,6 +1,8 @@
 README
 ======
 
+Workflow for strategy development
+
 - Python 3.6
 
 Install
